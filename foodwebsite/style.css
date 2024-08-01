@@ -1,0 +1,347 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    font-family: 'Poppins',sans-serif;
+
+}
+.menu{
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(350px,1fr));
+    grid-gap: 20px 40px;
+}
+
+.heading{
+    background-color:orangered;
+    color: #ffffff;
+    margin-bottom: 20px;
+    padding: 35px 0px 70px 0;
+    grid-column: 1/-1;
+    height: 200px;
+    
+    
+   
+    
+}
+.heading h2{
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+    text-align: center;    
+}
+
+
+.heading img{    
+    width: 130px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    
+}
+
+    
+
+.food-items{
+    display: grid;
+    position: relative;
+    grid-template-rows: auto 1fr;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    margin: 0 20px;
+    cursor: pointer;    
+    margin-left: 30px;
+    padding: 30px;
+    
+
+    
+    
+    
+}
+.food-items img{
+    position: relative;
+    width: 100%;
+    
+    border-radius: 15px 15px 0 0;
+}
+
+.details{
+    padding: 10px;
+    display: grid;
+    grid-template-rows: auto 1fr 50px;
+    grid-row-gap: 15px;
+}
+.details-sub{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.details-sub h5{
+    font-weight: 600;
+    font-size: 18px;
+}
+.price{
+    text-align: right;
+}
+.details p{
+    color: #6f6f6f;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+    align-self: stretch;
+}
+.details button{
+    background-color:orangered;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+h5{
+
+    color: black;
+}
+p{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    margin-left: 6px;
+}
+
+button:hover{
+
+    
+    background: green;
+}
+h5{
+    margin-top: 10px;
+    color: green;
+    margin: 5px;
+}
+.h4{
+
+   float: right;
+  
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-right: 35px;
+    margin-top: 23px;
+}
+.icon{
+ 
+ 
+ margin-left: 81%;
+ margin-top:-57px;
+ 
+   
+   position:absolute;
+
+}
+
+
+
+
+
+
+
+@media  screen and (max-width:1046px)  {
+
+
+    .heading{
+
+        height: 80%;
+    }
+
+    .heading img{
+        width: 15%;
+
+        
+       
+        
+    }
+    .h4{
+
+       
+        margin-right: 05px;
+      
+   
+       
+        
+     }   
+     
+
+    
+}
+
+
+@media  screen and (max-width:865px) {
+
+
+
+
+    .heading{
+
+        height: 70%;
+       
+    }
+
+    
+    .heading img {
+        width:15%;
+        transform: translate(-10%);
+       
+  
+      
+
+        
+       
+        
+    }
+    .h4{
+
+margin-left: 45px;
+font-size: 12px;
+   
+       
+        
+     }  
+
+}
+
+
+
+
+@media  screen and (max-width:600px) {
+
+
+
+
+    .heading{
+
+        height: 65%;
+    }
+
+  
+    .heading img{
+        width:15%;
+       
+  
+      
+
+        
+       
+        
+    }
+    .h4{
+
+margin-left: 45px;
+   
+font-size: 11px; 
+        
+     }  
+ #imgone {
+    width: 100%;
+
+   
+ }
+
+
+
+
+
+}
+
+
+
+
+@media  screen and (max-width:500px) {
+
+
+
+
+    .heading{
+
+        height: 65%;
+    }
+
+  
+    .heading img{
+        width:16%;
+        
+       
+       
+  
+      
+
+        
+       
+        
+    }
+    .h4{
+
+margin-left: 45px;
+   
+font-size: 9px; 
+        
+     }  
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media  screen and (max-width:400px) {
+
+
+
+
+    .heading{
+
+        height: 65%;
+    }
+
+  
+    .heading img{
+        width:15%;
+        
+       
+       
+  
+      
+
+        
+       
+        
+    }
+    .h4{
+
+margin-left: 45px;
+   
+font-size: 6px; 
+        
+     }  
+
+
+
+
+
+
+}
+
+
