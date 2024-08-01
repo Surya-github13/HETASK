@@ -1,0 +1,53 @@
+body{
+
+    background: lightgreen;
+}
+
+
+table{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    height: 70%;
+    text-align: center;
+    background-color: gray;
+    color: rgb(0, 0, 0); 
+    border: none;
+    
+  
+    
+   
+    
+}
+
+
+table tr th{
+
+
+
+    color:white;
+    background-color:rgb(224, 69, 12);
+}
+#pad{
+    font-size: 25px;
+    color: yellowgreen;
+    background-color: rgb(22, 73, 73);
+    text-shadow: 80px;
+    padding-top: 20px;
+    
+
+}
+.co{
+
+    color: rgb(246, 4, 4);
+    
+    text-align: center;
+    padding-top: 30px;
+    
+   
+}
+table tr th{
+    font-weight:bold;
+}
