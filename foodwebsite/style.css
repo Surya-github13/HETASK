@@ -136,7 +136,7 @@ h5{
  
  
  margin-left: 81%;
- margin-top:-57px;
+ margin-top:-81px;
  
    
    position:absolute;
@@ -149,7 +149,7 @@ h5{
 
 
 
-@media  screen and (max-width:1046px)  {
+@media  screen and (max-width:1096px)  {
 
 
     .heading{
@@ -173,13 +173,20 @@ h5{
        
         
      }   
+
+     .icon{
+
+
+       transform: translate(-190%);
+       margin-top: -110px;
+    }
      
 
     
 }
 
 
-@media  screen and (max-width:865px) {
+@media  screen and (max-width:965px) {
 
 
 
@@ -210,13 +217,22 @@ font-size: 12px;
        
         
      }  
+     .icon{
+
+
+        transform: translate(-150%);
+        margin-top: -90px;
+     }
+
+
+
 
 }
 
 
 
 
-@media  screen and (max-width:600px) {
+@media  screen and (max-width:794px) {
 
 
 
@@ -244,12 +260,13 @@ margin-left: 45px;
 font-size: 11px; 
         
      }  
- #imgone {
-    width: 100%;
+     .icon{
 
-   
- }
 
+        transform: translate(-190%);
+        margin-top: -70px;
+     }
+       
 
 
 
@@ -259,7 +276,7 @@ font-size: 11px;
 
 
 
-@media  screen and (max-width:500px) {
+@media  screen and (max-width:677px) {
 
 
 
@@ -290,7 +307,12 @@ font-size: 9px;
         
      }  
 
+     .icon{
 
+
+        transform: translate(-190%);
+        margin-top: -60px;
+     }
 
 
 
